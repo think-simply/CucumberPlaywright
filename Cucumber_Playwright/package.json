@@ -1,0 +1,24 @@
+{
+  "name": "cucumber_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js ",
+    "test now": "npx cucumber-js  --tags @now",
+    "high": "npx cucumber-js  --tags @high",
+    "parallel": "npx cucumber-js --parallel 6"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
