@@ -21,7 +21,6 @@ class CheckoutPage {
             const roundedTotal = parseFloat(totalWithTax.toFixed(2));
             // cách 2
             //   const roundedTotal = parseFloat(totalWithTax.toFixed(2));
-
             return { subtotal, totalWithTax, roundedTotal };
         });
 

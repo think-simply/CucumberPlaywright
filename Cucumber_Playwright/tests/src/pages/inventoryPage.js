@@ -49,8 +49,6 @@ class InventoryPage {
         const cartItemCount = await this.page.locator(locator.cartQty).innerText();
         expect(parseInt(cartItemCount)).toBe(2);
     }
-
-
     // Filter products from low price to high price
     async filterPriceLowToHigh() {
         // Get all product prices
